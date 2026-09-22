@@ -1,0 +1,13 @@
+<svg width="900" height="190" viewBox="0 0 900 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub activity</title>
+  <desc id="desc">This card is refreshed automatically from public GitHub activity.</desc>
+  <rect x="1" y="1" width="898" height="188" rx="16" fill="#0D1117" stroke="#30363D"/>
+  <circle cx="54" cy="54" r="8" fill="#42D3C8"/>
+  <text x="80" y="62" fill="#F0F6FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">GitHub Activity</text>
+  <text x="54" y="108" fill="#8B9BA8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">Generated from public contributions and refreshed automatically.</text>
+  <path d="M54 142H846" stroke="#30363D"/>
+  <path d="M54 142H276" stroke="#42D3C8" stroke-width="2" stroke-dasharray="8 10">
+    <animate attributeName="stroke-dashoffset" from="0" to="-36" dur="3s" repeatCount="indefinite"/>
+  </path>
+</svg>
+

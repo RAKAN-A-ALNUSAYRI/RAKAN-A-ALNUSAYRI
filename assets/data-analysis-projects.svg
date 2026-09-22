@@ -1,0 +1,19 @@
+<svg width="900" height="250" viewBox="0 0 900 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Data Analysis Projects</title>
+  <desc id="desc">A consolidated gallery of four data analysis projects.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="900" y2="250"><stop stop-color="#0D1722"/><stop offset="1" stop-color="#0C1118"/></linearGradient></defs>
+  <rect x="1" y="1" width="898" height="248" rx="18" fill="url(#bg)" stroke="#30363D"/>
+  <rect x="28" y="30" width="6" height="118" rx="3" fill="#43D3C9"/>
+  <text x="58" y="64" fill="#61DDD4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">SELECTED WORK</text>
+  <text x="58" y="108" fill="#F0F6FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="750">data-analysis-projects</text>
+  <text x="58" y="144" fill="#9CAEBB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Four decision-focused analyses in one evolving gallery</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#CDD7DF">
+    <rect x="58" y="174" width="150" height="38" rx="19" fill="#17232E" stroke="#33424F"/><text x="82" y="199">Bike Sales</text>
+    <rect x="220" y="174" width="178" height="38" rx="19" fill="#17232E" stroke="#33424F"/><text x="244" y="199">Supply Chain</text>
+    <rect x="410" y="174" width="200" height="38" rx="19" fill="#17232E" stroke="#33424F"/><text x="434" y="199">City Profitability</text>
+    <rect x="622" y="174" width="170" height="38" rx="19" fill="#17232E" stroke="#33424F"/><text x="646" y="199">Cookie Sales</text>
+  </g>
+  <path d="M724 62H838V132" stroke="#43D3C9" stroke-opacity="0.35" stroke-width="2"/>
+  <circle cx="724" cy="62" r="5" fill="#43D3C9"/><circle cx="838" cy="132" r="5" fill="#43D3C9"/>
+</svg>
+

@@ -1,0 +1,53 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rakan Alnusayri — Machine Learning</title>
+  <desc id="desc">Premium technical banner centered on machine learning, data, models, and intelligent systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0A1727"/>
+      <stop offset="1" stop-color="#06101C"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="80" y1="300" x2="1200" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C7C8C" stop-opacity="0.12"/>
+      <stop offset="0.45" stop-color="#35C2C9" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#73E6D5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(952 166) rotate(180) scale(410 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#24B8C4" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#24B8C4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#A8C4D8" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#glow)"/>
+
+  <g opacity="0.62">
+    <path id="route" d="M48 292C188 274 220 294 336 245C454 195 520 226 614 177C722 120 790 176 900 125C1010 74 1086 112 1232 48" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 12">
+      <animate attributeName="stroke-dashoffset" from="0" to="-40" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M48 316C190 300 260 317 374 276C510 226 565 249 684 211C826 166 949 200 1232 92" stroke="#2DB6C0" stroke-opacity="0.18" stroke-width="1.2"/>
+    <path d="M48 266C180 252 242 259 328 222C458 166 510 202 608 151C724 91 842 142 960 92C1062 49 1130 66 1232 28" stroke="#77E4D6" stroke-opacity="0.1"/>
+    <circle r="5" fill="#78E7D7" filter="url(#softGlow)">
+      <animateMotion dur="8s" repeatCount="indefinite"><mpath href="#route"/></animateMotion>
+    </circle>
+  </g>
+
+  <g fill="#5CD8D1" opacity="0.8">
+    <circle cx="892" cy="127" r="3"/><circle cx="960" cy="101" r="3"/><circle cx="1050" cy="87" r="3"/><circle cx="1148" cy="74" r="3"/>
+  </g>
+
+  <text x="72" y="76" fill="#7EDBD7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="4">RAKAN ALNUSAYRI</text>
+  <text x="72" y="178" fill="#F3F8FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="70" font-weight="750" letter-spacing="3">MACHINE LEARNING</text>
+  <text x="76" y="224" fill="#8EA9BC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500" letter-spacing="5">DATA  •  MODELS  •  INTELLIGENT SYSTEMS</text>
+  <rect x="72" y="260" width="532" height="1" fill="#47CEC9" opacity="0.32"/>
+  <text x="72" y="305" fill="#C0CFDA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="2">DATA SCIENCE  •  PYTHON  •  AI ENGINEERING</text>
+</svg>
+

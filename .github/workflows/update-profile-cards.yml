@@ -1,0 +1,40 @@
+name: Refresh profile cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate GitHub activity card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide_border=true&theme=transparent&include_all_commits=true&disable_animations=true&custom_title=GitHub%20Activity
+          path: assets/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate data analysis repository card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=data-analysis-projects&show_owner=false&description_lines_count=2&hide_border=true&theme=transparent
+          path: assets/data-analysis-projects.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/data-analysis-projects.svg
+          git diff --cached --quiet || git commit -m "chore: refresh profile cards"
+          git push
+

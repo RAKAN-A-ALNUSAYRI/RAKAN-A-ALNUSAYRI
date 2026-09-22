@@ -1,0 +1,41 @@
+<svg width="1280" height="460" viewBox="0 0 1280 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Core technical focus</title>
+  <desc id="desc">Machine Learning is the central focus, supported by Data Science, AI Engineering, and Python.</desc>
+  <defs>
+    <linearGradient id="ml" x1="32" y1="32" x2="760" y2="428" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B2434"/><stop offset="1" stop-color="#081722"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="64" y1="80" x2="706" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#53DED3"/><stop offset="1" stop-color="#248DA7"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1278" height="458" rx="22" fill="#0D1117" stroke="#30363D"/>
+  <rect x="28" y="28" width="738" height="404" rx="18" fill="url(#ml)" stroke="#2FC4C1" stroke-opacity="0.48"/>
+  <circle cx="706" cy="82" r="6" fill="#59DED4"><animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="64" y="78" fill="#5EDFD6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">CENTRAL FOCUS</text>
+  <text x="64" y="146" fill="#F0F6FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="42" font-weight="750">Machine Learning</text>
+  <rect x="64" y="176" width="640" height="1" fill="url(#accent)" opacity="0.55"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" fill="#CAD6DF">
+    <text x="64" y="226">Regression</text><text x="294" y="226">Classification</text><text x="538" y="226">Clustering</text>
+    <text x="64" y="278">Feature engineering</text><text x="364" y="278">Model evaluation</text>
+  </g>
+  <text x="64" y="350" fill="#91A6B5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">From reliable data to measured model behaviour</text>
+  <path d="M64 382H444L502 352H700" stroke="#35C8C4" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="7 9">
+    <animate attributeName="stroke-dashoffset" from="0" to="-32" dur="3.5s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <rect x="790" y="28" width="462" height="122" rx="16" fill="#111A24" stroke="#303B47"/>
+    <text x="820" y="68" fill="#6FD8D0" font-size="13" font-weight="700" letter-spacing="2">DATA SCIENCE</text>
+    <text x="820" y="108" fill="#E5EDF3" font-size="19">Pandas · NumPy · SQL · Statistics · EDA</text>
+
+    <rect x="790" y="169" width="462" height="122" rx="16" fill="#111A24" stroke="#303B47"/>
+    <text x="820" y="209" fill="#6FD8D0" font-size="13" font-weight="700" letter-spacing="2">AI ENGINEERING</text>
+    <text x="820" y="249" fill="#E5EDF3" font-size="19">APIs · LLM applications · RAG · Agents</text>
+
+    <rect x="790" y="310" width="462" height="122" rx="16" fill="#111A24" stroke="#303B47"/>
+    <text x="820" y="350" fill="#6FD8D0" font-size="13" font-weight="700" letter-spacing="2">PYTHON</text>
+    <text x="820" y="390" fill="#E5EDF3" font-size="19">The programming foundation across the stack</text>
+  </g>
+</svg>
+
