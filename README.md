@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/RAKAN-A-ALNUSAYRI/portfolio">Portfolio</a>
+  <a href="https://rakan-a-alnusayri.github.io/portfolio/">Portfolio</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/rakan-alnusayri-1100b72ab">LinkedIn</a>
   &nbsp;·&nbsp;
@@ -75,6 +75,12 @@ flowchart LR
 
 This represents the working approach—not a claim that every stage has already been completed in a public project.
 
+## Technical Direction
+
+- Build reproducible machine-learning projects around clearly framed problems and defensible baselines.
+- Strengthen the data foundation behind each model through thoughtful exploration, feature work, and evaluation.
+- Turn selected work into reliable, documented applications when the project is ready to stand on its own.
+
 ## Technology ecosystem
 
 | Foundation | Data work | Engineering practice |
@@ -117,4 +123,3 @@ Libraries are added only when public work demonstrates their use.
 ---
 
 <p align="center"><sub>Build evidence. Explain decisions. Improve the system.</sub></p>
-
