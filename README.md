@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Rakan Alnusayri — Machine Learning, Data, Models, Intelligent Systems" width="100%">
+  <a href="#selected-work"><img src="./assets/hero.svg" alt="Rakan Alnusayri — Machine Learning" width="100%"></a>
 </p>
 
 <p align="center">
-  Computer Science graduate in Riyadh building practical work across machine learning, data science, and AI engineering.
+  Computer Science graduate in Riyadh building practical work around machine learning, data science, and Python.
 </p>
 
 <p align="center">
@@ -16,63 +16,105 @@
 
 ## Core focus
 
-<img src="./assets/focus.svg" alt="Machine Learning is the central focus, supported by Data Science, AI Engineering, and Python" width="100%">
+<a href="#machine-learning-toolkit"><img src="./assets/card-machine-learning.svg" alt="Machine Learning — Regression, Classification, Clustering, Feature Engineering, Model Evaluation" width="100%"></a>
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/RAKAN-A-ALNUSAYRI/data-science-foundations"><img src="./assets/card-data-science.svg" alt="Data Science — Pandas, NumPy, SQL, Statistics, EDA" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/RAKAN-A-ALNUSAYRI/python-foundations"><img src="./assets/card-python.svg" alt="Python — programming foundation for machine learning and data work" width="100%"></a></td>
+  </tr>
+</table>
+
+<details id="machine-learning-toolkit">
+<summary><strong>Machine Learning Toolkit</strong></summary>
+
+- Problem framing and baseline selection
+- Regression, classification, and clustering
+- Feature engineering and preprocessing
+- Validation, model comparison, and evaluation
+- Reproducibility and clear limitation reporting
+
+</details>
+
+<details>
+<summary><strong>Data Science Toolkit</strong></summary>
+
+- NumPy and Pandas for numerical and tabular work
+- SQL for querying and analytical transformations
+- Statistics and exploratory data analysis
+- Data modelling, cleaning, and reproducible findings
+
+</details>
+
+<a id="selected-work"></a>
 
 ## Selected work
 
-<a href="https://github.com/RAKAN-A-ALNUSAYRI/data-analysis-projects">
-  <img src="./assets/data-analysis-projects.svg" alt="Data Analysis Projects repository" width="100%">
-</a>
+<a href="https://github.com/RAKAN-A-ALNUSAYRI/data-analysis-projects"><img src="./assets/data-analysis-projects.svg" alt="Open the Data Analysis Projects repository" width="100%"></a>
 
-The consolidated collection covers sales, supply chain, profitability, and customer concentration analysis using real project artifacts: datasets, SQL queries, dashboards, models, and written findings.
+| Project | Direct link |
+|:---|:---|
+| Bike Sales | [Open analysis →](https://github.com/RAKAN-A-ALNUSAYRI/data-analysis-projects/tree/main/bike-sales-analysis) |
+| Supply Chain | [Open analysis →](https://github.com/RAKAN-A-ALNUSAYRI/data-analysis-projects/tree/main/supply-chain-performance) |
+| City Profitability | [Open analysis →](https://github.com/RAKAN-A-ALNUSAYRI/data-analysis-projects/tree/main/city-profitability-analysis) |
+| Cookie Sales | [Open analysis →](https://github.com/RAKAN-A-ALNUSAYRI/data-analysis-projects/tree/main/cookie-sales-analysis) |
 
-> Major machine-learning and AI systems will be published as standalone repositories when they are complete enough to deserve an independent case study.
+Future standalone ML projects will be added here through live repository cards when the projects actually exist.
 
 ## Machine-learning workflow
 
 ```mermaid
 flowchart LR
     A[Data] --> B[Explore]
-    B --> C[Engineer features]
-    C --> D[Train models]
+    B --> C[Engineer]
+    C --> D[Train]
     D --> E[Evaluate]
-    E --> F[Serve and monitor]
+    E --> F[Serve]
     E -. iterate .-> B
 ```
 
-## Engineering surface
+This represents the working approach—not a claim that every stage has already been completed in a public project.
 
-| Machine Learning | Data Science | AI Engineering |
+## Technology ecosystem
+
+| Foundation | Data work | Engineering practice |
 |:---|:---|:---|
-| Regression · Classification · Clustering | Pandas · NumPy · SQL · Statistics · EDA | APIs · LLM applications · RAG · Agents |
-| Feature engineering · Model evaluation | Data modelling · Reproducible analysis | Retrieval and application architecture |
+| Python | NumPy · Pandas | Git · GitHub |
+| SQL | Statistics · EDA | Reproducible project structure |
 
-Python is the core programming language supporting this work.
+Libraries are added only when public work demonstrates their use.
 
-## GitHub activity
+## Live activity
 
-<img src="./assets/github-stats.svg" alt="GitHub activity generated from public contributions" width="100%">
+<img src="./assets/github-stats.svg" alt="Live GitHub statistics generated from public activity" width="100%">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./dist/github-contribution-grid-snake.svg">
+  <img alt="Live contribution animation generated from Rakan's real GitHub activity" src="./dist/github-contribution-grid-snake.svg" width="100%">
+</picture>
 
 <details>
-<summary><strong>Foundations and supporting disciplines</strong></summary>
+<summary><strong>Foundations</strong></summary>
 
-### Foundations repositories
+- [`python-foundations`](https://github.com/RAKAN-A-ALNUSAYRI/python-foundations) — exercises, challenges, and small programs.
+- [`data-science-foundations`](https://github.com/RAKAN-A-ALNUSAYRI/data-science-foundations) — NumPy, Pandas, SQL, statistics, and ML foundations.
 
-- [`python-foundations`](https://github.com/RAKAN-A-ALNUSAYRI/python-foundations) — exercises, challenges, and small programs that preserve the Python learning record.
-- [`data-science-foundations`](https://github.com/RAKAN-A-ALNUSAYRI/data-science-foundations) — NumPy, Pandas, SQL, statistics, and machine-learning foundations.
-- [`ai-engineering-foundations`](https://github.com/RAKAN-A-ALNUSAYRI/ai-engineering-foundations) — API integration, LLM applications, retrieval, and agent experiments as they are built.
+</details>
 
-### Networking
+<details>
+<summary><strong>Repository Guide</strong></summary>
 
-CCNA · Network fundamentals · Future network automation
-
-Networking remains a complementary technical discipline. Its repository is maintained separately and is not modified by this profile project.
+| Repository | Purpose |
+|:---|:---|
+| [`data-analysis-projects`](https://github.com/RAKAN-A-ALNUSAYRI/data-analysis-projects) | Consolidated analysis case studies and dashboards |
+| [`python-foundations`](https://github.com/RAKAN-A-ALNUSAYRI/python-foundations) | Python learning record |
+| [`data-science-foundations`](https://github.com/RAKAN-A-ALNUSAYRI/data-science-foundations) | Data and ML foundations |
+| [`portfolio`](https://github.com/RAKAN-A-ALNUSAYRI/portfolio) | Personal portfolio website source |
 
 </details>
 
 ---
 
-<p align="center">
-  <sub>Build evidence. Explain decisions. Improve the system.</sub>
-</p>
+<p align="center"><sub>Build evidence. Explain decisions. Improve the system.</sub></p>
 

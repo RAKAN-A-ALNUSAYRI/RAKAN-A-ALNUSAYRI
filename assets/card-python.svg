@@ -1,0 +1,9 @@
+<svg width="580" height="180" viewBox="0 0 580 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Python</title><desc id="d">Programming foundation supporting machine-learning and data work.</desc>
+  <rect x="1" y="1" width="578" height="178" rx="16" fill="#0F1822" stroke="#303C47"/>
+  <circle cx="54" cy="52" r="22" fill="#173C4B"/><path d="M44 45C44 39 64 39 64 45V52H50V59H42V48C42 46 43 45 44 45ZM64 59C64 65 44 65 44 59V52H58V45H66V56C66 58 65 59 64 59Z" fill="#57D9D1"/>
+  <text x="92" y="61" fill="#F0F6FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">Python</text>
+  <text x="34" y="116" fill="#B6C5CF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18">The programming foundation across the stack</text>
+  <text x="34" y="151" fill="#55D6CE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">OPEN REPOSITORY  →</text>
+</svg>
+

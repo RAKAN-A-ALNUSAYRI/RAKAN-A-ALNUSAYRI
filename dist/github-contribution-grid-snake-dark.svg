@@ -1,0 +1,6 @@
+<svg width="900" height="140" viewBox="0 0 900 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contribution animation pending first live update">
+  <rect x="1" y="1" width="898" height="138" rx="14" fill="#0D1117" stroke="#30363D"/>
+  <text x="450" y="66" text-anchor="middle" fill="#F0F6FC" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">Live contribution animation</text>
+  <text x="450" y="94" text-anchor="middle" fill="#8B949E" font-family="Segoe UI,Arial,sans-serif" font-size="14">Generated from real GitHub activity on the first workflow run</text>
+</svg>
+
