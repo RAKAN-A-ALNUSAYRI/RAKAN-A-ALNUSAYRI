@@ -122,7 +122,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">Data analysis case studies with datasets, SQL, dashboards,</tspan><tspan dy="1.2em" x="25">and decision-focused findings.</tspan>
+      <tspan dy="1.2em" x="25">A curated gallery of practical data analysis projects,</tspan><tspan dy="1.2em" x="25">dashboards, and business insights.</tspan>
     </text>
 
     <g transform="translate(30, 65)">
