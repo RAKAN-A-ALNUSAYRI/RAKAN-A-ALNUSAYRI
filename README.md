@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://rakan-a-alnusayri.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg"><img src="./assets/hero-light.svg" alt="Rakan Alnusayri — Machine Learning: data, models, intelligent systems" width="100%"></picture></a>
+<a href="https://rakan-a-alnusayri.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg"><img src="./assets/hero-light.svg" alt="Rakan Alnusayri — Machine Learning: data, models, intelligent systems" width="100%"></picture></a>
 </p>
 
 <h2><img src="./assets/s-user.svg" width="24" alt=""> About Me · نبذة عني</h2>
@@ -105,7 +105,7 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/rakan-alnusayri-1100b72ab"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/c-linkedin-dark.svg"><img src="./assets/c-linkedin-light.svg" alt="LinkedIn" width="200"></picture></a>
 <a href="https://github.com/RAKAN-A-ALNUSAYRI"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/c-github-dark.svg"><img src="./assets/c-github-light.svg" alt="GitHub" width="200"></picture></a>
-<a href="https://rakan-a-alnusayri.github.io/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/c-portfolio-dark.svg"><img src="./assets/c-portfolio-light.svg" alt="Portfolio" width="200"></picture></a>
+<a href="https://rakan-a-alnusayri.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/c-portfolio-dark.svg"><img src="./assets/c-portfolio-light.svg" alt="Portfolio" width="200"></picture></a>
 <a href="mailto:rakanalnsyry8@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/c-email-dark.svg"><img src="./assets/c-email-light.svg" alt="Email" width="200"></picture></a>
 </p>
 
